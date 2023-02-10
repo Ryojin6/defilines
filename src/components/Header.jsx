@@ -99,7 +99,7 @@ export function Header() {
               <Logo className="w-10" />
             </Link>
             <div className="hidden md:flex md:gap-x-6">
-              <NavLink href="#features">Features</NavLink>
+              <NavLink href="#benefits">Benefits</NavLink>
               <NavLink href="#charts">NFT Charts</NavLink>
               <NavLink href="#faq">FAQ</NavLink>
             </div>
