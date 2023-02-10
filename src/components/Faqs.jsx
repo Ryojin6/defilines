@@ -75,7 +75,7 @@ export function Faqs() {
       <Container className="relative">
         <div className="mx-auto max-w-2xl lg:mx-0">
           <h2
-            id="faq-title"
+            id="faq"
             className="font-display text-3xl tracking-tight text-slate-900 sm:text-4xl"
           >
             Frequently asked questions
