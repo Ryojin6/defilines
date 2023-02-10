@@ -215,7 +215,7 @@ export function SecondaryFeatures() {
           </h2>
           <p className="mt-4 text-lg tracking-tight text-slate-700">
             Stay ahead of the game with real-time insights and show off your
-            success with collectible NFTs. Don't miss out on any opportunities
+            success with collectible NFTs. Don`t miss out on any opportunities
           </p>
         </div>
         <FeaturesMobile />
