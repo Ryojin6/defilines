@@ -10,10 +10,9 @@ import screenshotProfitLoss from '@/images/screenshots/profit-loss.png'
 
 const features = [
   {
-    name: 'Reporting',
-    summary: 'Stay on top of things with always up-to-date reporting features.',
+    summary: 'Make Informed Investment Decisions:',
     description:
-      'We talked about reporting in the section above but we needed three items here, so mentioning it one more time for posterity.',
+      'Having access to real-time data and trends allows you to make informed investment decisions based on the most up-to-date information.      ',
     image: screenshotProfitLoss,
     icon: function ReportingIcon() {
       let id = useId()
@@ -44,11 +43,9 @@ const features = [
     },
   },
   {
-    name: 'Inventory',
-    summary:
-      'Never lose track of what’s in stock with accurate inventory tracking.',
+    summary: 'Stay Ahead of the Game: ',
     description:
-      'We don’t offer this as part of our software but that statement is inarguably true. Accurate inventory tracking would help you for sure.',
+      'Keeping up-to-date with the latest data and trends in De-Fi and crypto can give you a competitive edge and help you stay ahead in the game.      ',
     image: screenshotInventory,
     icon: function InventoryIcon() {
       return (
@@ -72,11 +69,9 @@ const features = [
     },
   },
   {
-    name: 'Contacts',
-    summary:
-      'Organize all of your contacts, service providers, and invoices in one place.',
+    summary: 'Avoid Missed Opportunities:',
     description:
-      'This also isn’t actually a feature, it’s just some friendly advice. We definitely recommend that you do this, you’ll feel really organized and professional.',
+      ' By having the latest information at your fingertips, you can quickly spot new opportunities and take advantage of them before they pass you by.',
     image: screenshotContacts,
     icon: function ContactsIcon() {
       return (
@@ -216,11 +211,11 @@ export function SecondaryFeatures() {
       <Container>
         <div className="mx-auto max-w-2xl md:text-center">
           <h2 className="font-display text-3xl tracking-tight text-slate-900 sm:text-4xl">
-            Simplify everyday business tasks.
+            Keep Your De-Fi Game on Point with NFT Charts
           </h2>
           <p className="mt-4 text-lg tracking-tight text-slate-700">
-            Because you’d probably be a little confused if we suggested you
-            complicate your everyday business tasks instead.
+            Stay ahead of the game with real-time insights and show off your
+            success with collectible NFTs. Don't miss out on any opportunities
           </p>
         </div>
         <FeaturesMobile />

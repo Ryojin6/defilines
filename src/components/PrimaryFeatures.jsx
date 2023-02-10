@@ -12,27 +12,27 @@ import screenshotVatReturns from '@/images/screenshots/vat-returns.png'
 
 const features = [
   {
-    title: 'Payroll',
+    title: 'Get a Detailed View of Your Investments:',
     description:
-      "Keep track of everyone's salaries and whether or not they've been paid. Direct deposit not supported.",
+      'View all-time highs and lows, real-time stats and trends, and more, all in one place.',
     image: screenshotPayroll,
   },
   {
-    title: 'Claim expenses',
+    title: 'Stay Up-to-Date:',
     description:
-      "All of your receipts organized into one place, as long as you don't mind typing in the data by hand.",
+      'Metadata updated daily, ensuring you always have the most accurate information possible.',
     image: screenshotExpenses,
   },
   {
-    title: 'VAT handling',
+    title: 'Showcase Your Success:',
     description:
-      "We only sell our software to companies who don't deal with VAT at all, so technically we do all the VAT stuff they need.",
+      'Transform your De-Fi charts into collectible NFTs and showcase your portfolio with pride.',
     image: screenshotVatReturns,
   },
   {
-    title: 'Reporting',
+    title: 'Easy-to-Use: ',
     description:
-      'Easily export your data into an Excel spreadsheet where you can do whatever the hell you want with it.',
+      'Quickly and easily view your charts and monitor your portfolio.',
     image: screenshotReporting,
   },
 ]
@@ -70,13 +70,14 @@ export function PrimaryFeatures() {
         unoptimized
       />
       <Container className="relative">
-        <div className="max-w-2xl md:mx-auto md:text-center xl:max-w-none">
+        <div className="max-w-3xl md:mx-auto md:text-center xl:max-w-none">
           <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl md:text-5xl">
-            Everything you need to run your books.
+            Key Benefits of On-chain Generated De-Fi Charts as NFTs
           </h2>
           <p className="mt-6 text-lg tracking-tight text-blue-100">
-            Well everything you need if you aren’t that picky about minor
-            details like tax compliance.
+            Everything you need, whenever you need. Get a Detailed View of Your
+            Investments: View all-time highs and lows, real-time stats and
+            trends, and more, all in one place.
           </p>
         </div>
         <Tab.Group

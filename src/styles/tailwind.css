@@ -5,3 +5,16 @@
 #__next {
   min-height: 100%;
 }
+.cls-1 {
+  fill: #4979f7;
+}
+.cls-2,
+.cls-3 {
+  fill: #47dccd;
+}
+.cls-4 {
+  fill: #2663ea;
+}
+.cls-3 {
+  opacity: 0.6;
+}
